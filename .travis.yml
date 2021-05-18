@@ -1,0 +1,7 @@
+language: csharp
+sudo: required
+addons:
+  apt:
+    packages: -NSubstitute
+dotnet: -4.0.3
+os: -windows
