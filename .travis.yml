@@ -1,5 +1,4 @@
 language: csharp
-sudo: required
 dist: trusty
 env:
   - CLI_VERSION=latest
@@ -10,7 +9,7 @@ addons:
 dotnet:
   - 4.2.2
 os:
-  - Focal Fossa Ubuntu Linux
+  - linux
   - osx
 osx_image: xcode7.1
 branches:
