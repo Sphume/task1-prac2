@@ -7,7 +7,7 @@ namespace Oware {
     public class House : IEquatable<House> {
         private List<Seed> seedsInHouse;
         public int xPos, yPos;
-        
+
         public House(int x, int y) {
             seedsInHouse = new List<Seed>();
             InitializeHouse();
